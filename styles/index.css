@@ -1,0 +1,59 @@
+*, *::before, *::after{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+
+header{
+    padding:1em;
+    background-color:blue;
+    display:flex;
+    justify-content: space-between;
+    font-size:1rem;
+    font-family: 'Silkscreen', cursive;
+    color:#130f40;
+}
+
+.top-section{
+    width:85%;
+    margin:auto;
+}
+
+.title{
+    margin-top:5px;
+    margin-bottom:5px;
+    font-size: 2rem;
+    font-family: 'Silkscreen', cursive; 
+    color:#130f40;
+}
+
+.description{
+    font-size:1rem;
+    font-family: 'Happy Monkey', cursive;
+    margin-bottom:5px;
+    font-size:1rem;
+    color:#30336b;
+}
+
+code{
+    margin-top:5px;
+    margin-bottom:5px;
+    font-size:1rem;
+}
+
+.main-section{
+    font-family: 'Happy Monkey', cursive;
+    padding-top:1em;
+    width:80%;
+    margin:auto;
+    font-size:1.5rem;
+}
+
+li{
+    color:#30336b;
+}
+
+a{
+    text-decoration:none;
+}

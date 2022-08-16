@@ -1,0 +1,45 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+   
+}
+
+header{
+    background-color: #bdc3c7;
+    width:100vw;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial;
+}
+
+i{
+    display: block;
+    font-size: 2rem;
+}
+
+ul > li{
+    list-style-type: none;
+    padding:1rem;
+    
+}
+.main-nav{
+    display:flex;
+    flex-direction:column;
+}
+.nav-item{
+    font-size: 1rem;
+    text-align:center;
+    font-weight:bold;
+    
+}
+
+
+@media(min-width:769px){
+    .hide-at-D{
+        display: none; 
+    }
+}

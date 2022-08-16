@@ -1,0 +1,51 @@
+*, *::before, *::after{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+.background{
+    width :100vw;
+    height:100vh;
+    background-color: red;
+    position:relative;
+}
+
+.content{
+   background-color:aqua;
+   height:50vh;
+   width:50vw;
+   border: 2px solid white;
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-50%, -50%);
+
+   display:flex;
+   flex-direction: column;
+   align-items:center;
+   justify-content: center;
+}
+
+ h1{
+   background-color:#2d3436;
+   padding:0.5rem;
+   border:none;
+   border-radius:0.2em;
+   font-size:small;
+}
+
+button{
+   margin-top:1rem;
+   padding:0.5rem;
+   font-weight:bold;
+   border:1px solid black;
+   cursor:pointer;
+   background-color: aqua;
+}
+
+@media(min-width:769px){
+    h1{
+        font-size:xx-large;
+    }
+}

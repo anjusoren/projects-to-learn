@@ -1,0 +1,38 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.title{
+    font-size:3rem;
+}
+
+.count{
+    font-size: 5rem;
+    color:blue;
+}
+
+.buttons{
+    display:flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.button{
+    padding:0.5em;
+    letter-spacing: 0.1em;
+    border: 1px solid grey;
+    border-radius:5px;
+    cursor: pointer;
+}
+
+.button:hover{
+    border: 1px solid blue;
+}
